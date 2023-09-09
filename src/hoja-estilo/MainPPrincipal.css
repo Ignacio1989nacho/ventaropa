@@ -1,0 +1,12 @@
+.flex-contenido-principal{
+
+display: inline-block;
+}
+
+.imagen-fondo-principal{
+    background-image: url("../Imagenes/imagenfondo.png");
+}
+
+.fuente{
+    color: black !important;
+}
