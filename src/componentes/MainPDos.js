@@ -63,23 +63,7 @@ const MainPDos = (props) => {
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button>
-                      </div>
-                      <small class="text-body-secondary">9 mins</small>
-                    </div>
+                    <PrecioFoto precio="$250" />
                   </div>
                 </div>
               </div>
@@ -93,23 +77,7 @@ const MainPDos = (props) => {
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button>
-                      </div>
-                      <small class="text-body-secondary">9 mins</small>
-                    </div>
+                    <PrecioFoto precio="$550" />
                   </div>
                 </div>
               </div>
@@ -122,23 +90,7 @@ const MainPDos = (props) => {
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button>
-                      </div>
-                      <small class="text-body-secondary">9 mins</small>
-                    </div>
+                    <PrecioFoto precio="$650" />
                   </div>
                 </div>
               </div>
@@ -151,23 +103,7 @@ const MainPDos = (props) => {
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button>
-                      </div>
-                      <small class="text-body-secondary">9 mins</small>
-                    </div>
+                    <PrecioFoto precio="$950" />
                   </div>
                 </div>
               </div>
@@ -181,23 +117,7 @@ const MainPDos = (props) => {
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button>
-                      </div>
-                      <small class="text-body-secondary">9 mins</small>
-                    </div>
+                    <PrecioFoto precio="$1250" />
                   </div>
                 </div>
               </div>
@@ -210,23 +130,7 @@ const MainPDos = (props) => {
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button>
-                      </div>
-                      <small class="text-body-secondary">9 mins</small>
-                    </div>
+                    <PrecioFoto precio="$1350" />
                   </div>
                 </div>
               </div>
@@ -239,23 +143,7 @@ const MainPDos = (props) => {
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button>
-                      </div>
-                      <small class="text-body-secondary">9 mins</small>
-                    </div>
+                    <PrecioFoto precio="$1650" />
                   </div>
                 </div>
               </div>

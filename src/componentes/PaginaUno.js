@@ -16,6 +16,7 @@ export const PaginaUno = () => {
         bebes="bebes-ropa"
         descuento="descuento"
         foto="imagenhome"
+        giflogo="L"
       />
       <Footer />
       <Nav />

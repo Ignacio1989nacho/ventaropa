@@ -4,3 +4,10 @@
     object-fit: contain;    
 
 }
+
+.acomodar-imagen{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}

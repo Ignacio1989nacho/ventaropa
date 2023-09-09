@@ -20,7 +20,7 @@ export const ComponenteVenta = (props) => {
                 Edit
               </button>
             </div>
-            <small class="text-body-secondary">9 mins</small>
+            <small class="text-body-secondary"></small>
           </div>
         </div>
       </div>

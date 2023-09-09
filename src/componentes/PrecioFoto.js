@@ -12,7 +12,7 @@ const PrecioFoto = (props) => {
             Edit
           </button>
         </div>
-        <small class="text-body-secondary">9 mins{props.precio}</small>
+        <small class="text-body-secondary">{props.precio}</small>
       </div>
     </div>
   );

@@ -6,24 +6,20 @@ const Main = (props) => {
   return (
     <div>
       <main>
-        <div class="imagen-fondo-principal position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary color-degradado">
           
-          <div class="col-md-6 p-lg-5 mx-auto my-5">
-            <h1 class="display-3 fw-bold">PRODUCTOS X</h1>
-            <h3 class="fuente fw-normal text-muted mb-3">
-              ¡Bienvenido a nuestra página! Aquí encontrarás una amplia
-              selección de productos de alta calidad a precios increíbles. Desde
-              ropa hasta artículos para el hogar, tenemos algo para todos.
-              ¡Explora nuestras categorías y encuentra lo que estás buscando!
-              ¡No te pierdas la oportunidad de comprar nuestros productos y
-              disfrutar de una experiencia de compra única!
-            </h3>
+
+          <div class="acomodar-imagen col-md-6 p-lg-5 mx-auto my-5">
+            <img src={require(`../Imagenes/${props.giflogo}.gif`)} />
+
             <div class="d-flex gap-3 justify-content-center lead fw-normal"></div>
           </div>
           <div class="product-device shadow-sm d-none d-md-block"></div>
           <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
-
+        <h3 class="fuente fw-normal  text-muted mb-3">
+          Viste a tus pequeños con estilo y comodidad
+        </h3>
         <div className="flex-contenido-principal">
           <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
             <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
