@@ -1,6 +1,7 @@
 import React from 'react'
 
 const FooterPDos = () => {
+  const fecha = new Date().getFullYear();
   return (
     <div>
       <footer class="text-body-secondary py-5">
@@ -8,17 +9,9 @@ const FooterPDos = () => {
           <p class="float-end mb-1">
             <a href="#">Back to top</a>
           </p>
-          <p class="mb-1">
-            Album example is &copy; Bootstrap, but please download and customize
-            it for yourself!
-          </p>
-          <p class="mb-0">
-            New to Bootstrap? <a href="/">Visit the homepage</a> or read our{" "}
-            <a href="/docs/5.3/getting-started/introduction/">
-              getting started guide
-            </a>
-            .
-          </p>
+          <small class="d-block mb-3 text-body-secondary">
+            Loto Sistema &copy; {fecha}
+          </small>
         </div>
       </footer>
       <script

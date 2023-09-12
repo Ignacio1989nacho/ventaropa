@@ -5,6 +5,7 @@ import PaginaUno from "./PaginaUno";
 import PaginaTres from "./PaginaTres";
 import PaginaCuatro from "./PaginaCuatro";
 import "../hoja-estilo/NavbarGeneral.css";
+import CheckCompra from './CheckCompra';
 
 export const Navbar = (props) => {
   return (
@@ -35,13 +36,16 @@ export const Navbar = (props) => {
                   <Link to="/">{props.linkUno}</Link>
                 </li>
                 <li class="nav-item ">
-                  <Link to="/paginaDos">{props.linkDos}</Link>
+                  <Link to="/Chicos-as">{props.linkDos}</Link>
                 </li>
                 <li class="nav-item ">
-                  <Link to="/paginaTres">{props.linkTres}</Link>
+                  <Link to="/Bebes">{props.linkTres}</Link>
                 </li>
                 <li class="nav-item ">
-                  <Link to="/paginaCuatro">{props.linkCuatro}</Link>
+                  <Link to="/Descuentos">{props.linkCuatro}</Link>
+                </li>
+                <li class="nav-item ">
+                  <Link to="/Compra">{props.linkCinco}</Link>
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -60,10 +64,11 @@ export const Navbar = (props) => {
         </nav>
       </header>
       <Routes>
-        <Route path="/paginaTres" element={<PaginaTres />} />
-        <Route path="/paginaCuatro" element={<PaginaCuatro />} />
-        <Route path="/paginaDos" element={<PaginaDos />} />
+        <Route path="/Bebes" element={<PaginaTres />} />
+        <Route path="/Descuentos" element={<PaginaCuatro />} />
+        <Route path="/Chicos-as" element={<PaginaDos />} />
         <Route path="/" element={<PaginaUno />} />
+        <Route path="/Compra" element={<CheckCompra foto="L" />} />
       </Routes>
       <Outlet />
     </div>

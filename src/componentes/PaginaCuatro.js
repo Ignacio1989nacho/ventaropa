@@ -1,5 +1,6 @@
 import React from 'react'
 import MainPDos from './MainPDos';
+import FooterPDos from './FooterPDos';
 const PaginaCuatro = () => {
   return (
     <div>
@@ -10,8 +11,9 @@ const PaginaCuatro = () => {
                 variedad de productos de diferentes tipos, al increible 50% de descuento o tambien 
                 los ofertones de fuera de temporada!
                 ¡Explora nuestra selección y encuentra lo que estás buscando!"
-        foto="bebes-ropa"        
+        foto="bebes-ropa"
       />
+      <FooterPDos />
     </div>
   );
 }

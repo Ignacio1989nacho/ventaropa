@@ -1,0 +1,10 @@
+.imagen-estilo{
+    margin-top: 6em;
+    width: auto;
+    min-height: 400px;
+    border:pink solid 3px;
+    background-image: url("../Imagenes/L.gif");
+    background-size: cover;
+    background-position: center;
+}
+
